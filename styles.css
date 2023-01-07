@@ -59,6 +59,10 @@
     align-items: center;
   }
 
+.slide img{
+    height: 5vh;
+}
+
   /* The dots/bullets/indicators */
 .dot {
     height: 15px;
