@@ -59,7 +59,7 @@
 
 .slider{
     width: fit-content;
-    height: 50vh;
+    height: 100vh;
     border-radius: 10px;
     overflow: hidden;
 }
