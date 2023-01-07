@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class = "container">
-        <div class = "top-banner">
-            <a href="#home" class = "active">Logo</a>
+    <!--Top Banner with Hamburger Menu-->
+    <div class="banner-container">
+        <div class="top-banner">
+            <a href="#home" class="active">Logo</a>
             <div id = "links">
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
@@ -22,10 +23,36 @@
             </a>
         </div>
     </div>
-    <div>
-        <h1>Placeholder</h1>
+    <div class="slider-container">
+        <!--Image Slider with auto scroll plus buttons-->
+        <div class="slider">
+            <div class = "slides">
+                <!--Manually Click Buttons for Specific Images-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Slide images here-->
+                <div class="first-slide">
+                    <img src="Serenity_Image_2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Serenity_Image_1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Serenity_Image_3.jpg" alt="">
+                </div>
+                <!--Automatic Navigation-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <h1>Placeholder</h1>
+        </div>
     </div>
     <script src="index.js"></script>
- 
 </body>
 </html>
