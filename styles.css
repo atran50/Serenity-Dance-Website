@@ -109,6 +109,7 @@ img{
     vertical-align: middle;
     align-items: center;
     height: 30vh;
+    z-index: -1;
 }
 
 .slide{
