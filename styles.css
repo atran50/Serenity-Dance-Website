@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 .body {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -61,6 +62,14 @@
 .slide img{
     margin: auto;
     height: 50vh;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.slide{
+    display: none;
 }
 
   /* The dots/bullets/indicators */
