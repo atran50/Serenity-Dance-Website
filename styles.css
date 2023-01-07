@@ -54,15 +54,11 @@
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 100%;
+    max-width: 1000px;
     position: relative;
     margin: auto;
   }
 
-.slide img{
-    margin: auto;
-    height: 50vh;
-}
 
 img{
     vertical-align: middle;
