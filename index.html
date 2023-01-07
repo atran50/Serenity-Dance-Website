@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class = "container">
-        <div class = "topBanner">
+        <div class = "top-banner">
             <a href="#home" class = "active">Logo</a>
             <div id = "links">
                 <a href="#about">About</a>
@@ -23,7 +23,48 @@
         </div>
     </div>
     
+    <div class="slider-container">
+        <!-- Slider main container -->
+        <h1 id = "textShadow">Vertical Photos</h1>
+        <div class="swiper">
+            
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><img id = "vertical" src="images\AidenAlvinLaughing.jpg" alt="AidenAlvinLaughing"></div>
+                <div class="swiper-slide"><img id = "vertical" src="images\AidenChadSanta.jpg" alt="AidenChadSanta"></div>
+                <div class="swiper-slide"><img id = "vertical" src="images/AidenJumpScare.jpg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
    
     <script src="index.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
 </body>
 </html>
