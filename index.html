@@ -12,7 +12,7 @@
     <!--Top Banner with Hamburger Menu-->
     <div class="banner-container">
         <div class="top-banner">
-            <a href="#home" class="active">Logo</a>
+            <a href="#home" class="banner-active">Logo</a>
             <div id = "links">
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
@@ -25,13 +25,13 @@
     </div>
     
     <div class="slider-container">
-        <div class="slide">
+        <div class="slide fade">
             <img src="Serenity_Image_2.jpg" alt="" style = "width:100%">
         </div>
-        <div class="slide">
+        <div class="slide fade">
             <img src="Serenity_Image_1.jpg" alt="" style = "width:100%">
         </div>
-        <div class="slide">
+        <div class="slide fade">
             <img src="Serenity_Image_3.jpg" alt="" style = "width:100%">
         </div>
     </div>
@@ -49,7 +49,7 @@
         
         function showSlides() {
           let i;
-          let slides = document.getElementsByClassName("mySlides");
+          let slides = document.getElementsByClassName("slide");
           let dots = document.getElementsByClassName("dot");
           for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";  
