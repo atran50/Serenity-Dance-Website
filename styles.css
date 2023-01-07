@@ -50,6 +50,7 @@
 }
 
 .slider-container{
+    margin: 0 10vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -57,15 +58,15 @@
 }
 
 .slider{
-    width: 50vh;
-    height: 500px;
+    width: fit-content;
+    height: 50vh;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
     width: 500%;
-    height: 500px;
+    height: 50vh;
     display: flex;
 }
 
