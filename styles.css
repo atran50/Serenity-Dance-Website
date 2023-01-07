@@ -20,6 +20,11 @@
     color: white;
 }
 
+.hamburger-menu
+{
+    z-index: 1;
+}
+
 #menu__toggle {
     opacity: 0;
   }
