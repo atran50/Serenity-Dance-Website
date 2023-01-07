@@ -46,14 +46,9 @@
 }
 
 .slider-container{
-    background: linear-gradient(#edf6f9,#efd3d7,#ffddd2);
     width: 100%;
-    height: 205vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    height: 100vh;
+
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
