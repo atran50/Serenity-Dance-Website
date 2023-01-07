@@ -59,10 +59,14 @@
     height: fit-content;
 }
 
+.swiper-slide img{
+    width: 100%;
+}
+
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color: #83c5be;
+    color: #fff;
 }
 
 .swiper .swiper-pagination-bullet-active{
-    background: #83c5be;
+    background: #fff;
 }
