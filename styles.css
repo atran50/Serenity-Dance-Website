@@ -53,8 +53,7 @@
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
   }
 
 .slide img{
