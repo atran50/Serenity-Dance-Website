@@ -51,17 +51,15 @@
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 50%;
-    max-height: 25%;
+    max-width: 100%;
     position: relative;
-    margin: 0 10vh;
     justify-content: center;
     align-items: center;
   }
 
 .slide img{
     margin: 0 30vh;
-    height: 30vh;
+    height: 50vh;
 }
 
   /* The dots/bullets/indicators */
