@@ -93,7 +93,7 @@
   }
 
 /* Slideshow container */
-.slideshow-container {
+.slider-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -102,6 +102,7 @@
 
 img{
     vertical-align: middle;
+    align-items: center;
     height: 30vh;
 }
 
