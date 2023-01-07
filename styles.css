@@ -52,8 +52,11 @@
 /* Slideshow container */
 .slideshow-container {
     max-width: 50%;
+    max-height: 25%;
     position: relative;
     margin: auto;
+    justify-content: center;
+    align-items: center;
   }
 
   /* The dots/bullets/indicators */
